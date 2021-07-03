@@ -28,8 +28,8 @@
 		qcom,mdss-dsi-stream = <0>;
 		qcom,mdss-dsi-panel-width = <1080>;
 		qcom,mdss-dsi-panel-height = <1920>;
-		qcom,mdss-dsi-h-front-porch = <80>;
-		qcom,mdss-dsi-h-back-porch = <40>;
+		qcom,mdss-dsi-h-front-porch = <78>;
+		qcom,mdss-dsi-h-back-porch = <38>;
 		qcom,mdss-dsi-h-pulse-width = <10>;
 		qcom,mdss-dsi-h-sync-skew = <0>;
 		qcom,mdss-dsi-v-back-porch = <4>;
@@ -108,8 +108,8 @@
 		qcom,mdss-dsi-te-dcs-command = <1>;
 		qcom,mdss-dsi-te-check-enable;
 		qcom,mdss-dsi-te-using-te-pin;
-		qcom,mdss-night-brightness = <7 25 43 61>;
-		qcom,mdss-panel-on-dimming-delay = <120>;
+		qcom,mdss-night-brightness = <1 7 25 43 61>;
+		qcom,mdss-panel-on-dimming-delay = <100>;
 		qcom,dispparam-enabled;
 		qcom,mdss-dsi-dispparam-cabcon-command = [
 				29 00 00 00 00 00 02 B0 04
